@@ -1,3 +1,31 @@
 body{
     background: #BDBDBD;
 }
+
+.gif-tagline {
+  height: 800px; 
+  background: url('https://64.media.tumblr.com/268a261556ace7e50b4368c22b3389fb/tumblr_mp4pzvpSii1snwkluo2_r1_640.gifv') center center no-repeat;
+  background-size: contain; 
+  background-color: #BDBDBD; 
+  position: relative;
+  overflow: hidden;
+}
+
+
+.encapsular-box {
+  display: inline-block;
+  background-color: #016936;
+  color: white;
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
+  font-weight: bold;
+  font-family: 'Share Tech Mono', monospace;
+  margin: 0 0.15em;
+}
+
+.breaking-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: black      ;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+}
